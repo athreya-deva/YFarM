@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dd.athreya.dev">
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomePage"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".ListViewAdapter" />
+        <activity android:name=".CropsTypes"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".FoodCrops"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".CashCrops"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".PlantationCrops"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".HorticultureCrops"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Sugarcane"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Tobacco"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Cotton"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Jute"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Rice"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Wheat"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Maize"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Millets"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Apple"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Orange"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Grapes"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Tomato"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Coffee"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Coconut"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Tea"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Rubber"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>
